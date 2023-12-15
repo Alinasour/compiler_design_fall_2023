@@ -1,6 +1,6 @@
-# Generated from C:/Users/USER/pythonProject3/Expr.g4 by ANTLR 4.13.1
+# Generated from HW2/gen/Expr.g4 by ANTLR 4.7.2
 from antlr4 import *
-if "." in __name__:
+if __name__ is not None and "." in __name__:
     from .ExprParser import ExprParser
 else:
     from ExprParser import ExprParser
@@ -26,5 +26,3 @@ class ExprListener(ParseTreeListener):
         pass
 
 
-
-del ExprParser
